@@ -2,10 +2,43 @@
 .navbar-fixed-top {
   height: 100px;
   line-height: 100px;
-  font-family: Garamond;
+  font-family: Roboto;
   background-color: #ffc107 !important;
+}
+
+.brand-logo{
+    font-weight: bold;
+    background-color: #fafafa !important;
+    color: #ffc107 !important;
+    }
+
+.mytitle{
+    background-color: #fafafa !important;
+    width: 200px;
+    box-shadow: 3px 3px 3px grey;
+
 }
 
 .container{
 width: 1400px;
 }
+
+.logo{
+    height: 100px;
+    width: 100px;
+    background-color: #fafafa !important;
+}
+
+.input-field input[type=date]:focus+label,
+        .input-field input[type=text]:focus+label,
+        .input-field input[type=email]:focus+label,
+        .input-field input[type=password]:focus+label {
+            color: #ffab00;
+        }
+
+        .input-field input[type=date]:focus,
+        .input-field input[type=text]:focus,
+        .input-field input[type=email]:focus,
+        .input-field input[type=password]:focus {
+            border-bottom: 2px solid #ffab00;
+            box-shadow: none;
